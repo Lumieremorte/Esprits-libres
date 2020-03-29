@@ -1,0 +1,219 @@
+/*Code pour les titres et paragraphes ainsi que le logo*/
+
+.flotte {            /*fait flotter le logo de la guilde à gauche du nom*/
+	float:left;
+	text-align: center;
+}
+h1.blanc{
+    color: #ffffff;
+    text-align:left;
+    height: 6px;
+    line-height: 9px;
+    font-size: 38px;
+}
+h2{
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	line-height: 2px;
+	letter-spacing: 3px;
+}
+p{
+    color: #ffffff;
+    height: 50px;
+    line-height: 15px;
+}
+p.sous-titre{
+	color: white;
+	height: 20px;
+	line-height: 1px;
+}
+p.linkhautdepage{
+	text-align: center;
+	text-decoration: underline blue;
+}
+p.linkhautdepage a{
+	color: blue;
+}
+/*Code pour tous les liens hypertext*/
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #BAE498;
+}
+
+a:active {
+  background: white;
+  color: white;
+}
+body{
+    background-color: #000000;
+}
+footer{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	background-color: #222222;
+}
+
+/*Menu de toutes les pages (accueil/charte/staff*/
+p.menu{
+	color:white;
+	line-height: 40px;
+	font-size: 20px;
+	text-align: center;
+	background-color: #222222;
+	display: block;
+}
+p.menu a:hover{ /*couleur quand on survole le menu (accueil etc)*/
+	background-color: #222554;
+	display: box;
+	width: 40px;
+	font-size: 22px;
+}
+
+/* code page index*/
+
+.imgindex{
+	position: relative;
+    color: white;
+    z-index: -2; 
+    padding: auto;
+}
+p.devise{
+	color: white;
+	margin: auto; 
+	position: relative;
+	top: -600px; 
+	font-size: 130px; 
+	text-align: center; 
+	z-index: -1;
+	text-shadow: 1px 1px 2px #222222, 0 0 1em #222222, 0 0 0.2em #222222;
+}
+/* code pour le deuxième menu de l'index*/
+
+body nav{
+	color: #ffffff;
+	font-size: 20px;
+	margin: auto;
+	width: 1000px;
+
+}
+body nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	display: block;
+}
+
+body nav ul li{
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	height: 60px;
+	background-color: #222222;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+nav ul a{
+	display: block;
+}
+nav ul :hover{
+	background-color: #222554;
+}
+body nav ul li ul li{
+	display: none;
+}
+body nav ul li:hover ul li{
+	display: block;
+}
+body nav ul li:visited {
+  color: white;
+}
+div.menudeux{
+	margin: auto;
+	width: 100%;
+	padding: 0;
+	z-index: 1;
+	display: block;
+	margin-top: -10px;
+}
+/*code page charte*/
+	
+p.charte{
+	text-align: center;
+	margin: 20px;
+	font-size: 25px;
+	line-height: 30px;
+
+}
+
+/*Code page Staff*/
+h3{
+	text-align: center;
+	color: white;
+	font-size: 90px;
+}
+
+.float{
+	float: right;
+	text-align: left;
+	size: 300px;
+}
+p.noms{
+	font-size: 25px;
+	color: white;
+	text-align: left;
+	line-height: 40px;
+
+}
+p.nomshead{
+	font-size: 40px;
+	color: white;
+	text-align: left;
+	line-height: 45px;
+	background-color: #222222;
+}
+.ulcharte{
+	font-size: 20px;
+	color: white;
+	text-align: left;
+	margin: 100px;
+	line-height: 30px;
+}
+/* code pour la liste page Ton écran*/
+.ListeEcran{
+	color: white;
+	font-size: 21px;
+	margin: 0;
+	padding: 1;
+}
+/* code pour la liste page Optimisations*/
+p.titreoptimisation{
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+.texteopti{
+	font-size: 20px;
+    text-align: left;
+    color: white;
+    line-height: 30px;
+}
+p.texteopti a{
+	color: gold;
+}
