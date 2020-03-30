@@ -60,7 +60,7 @@ a:active {
 }
 body{
     background-color: #000000;
-    font-size: 100%
+    font-size: 100%;
 }
 footer{
 	color: white;
@@ -95,23 +95,25 @@ p.menu a:hover{ /*couleur quand on survole le menu (accueil etc)*/
 }
 p.devise{
 	color: white;
+	margin: auto; 
 	padding: auto;
 	position: relative;
 	top: -600px; 
-	font-size: 130px; 
+	font-size: 50px; 
 	text-align: center; 
 	z-index: -1;
 	text-shadow: 1px 1px 2px #222222, 0 0 1em #222222, 0 0 0.2em #222222;
+}
 
 p.devise {font-size: 3em;}
 
-@media screen and (max-width: 64em) {
+@media screen and (max-width: 90em) {
 p.devise {
-    font-size: 2.5em;
+    font-size: 5em;
   }
 }
 
-@media screen and (max-width: 50em) {
+@media screen and (max-width: 60em) {
 p.devise {
     font-size: 2em;
   }
