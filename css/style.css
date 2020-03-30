@@ -217,3 +217,11 @@ p.titreoptimisation{
 p.texteopti a{
 	color: gold;
 }
+.élément {
+	-webkit-propriété: valeur;
+	-moz-propriété: valeur;
+	-ms-propriété: valeur;
+	-o-propriété: valeur;
+	propriété: valeur;
+}
+
