@@ -4,7 +4,7 @@
 .flotte {            /*fait flotter le logo de la guilde à gauche du nom en début de la page*/
 	float:left;
 	display: block;
-	top: 30PX;
+	top: 190PX;
 }
 h1.blanc{
     color: #ffffff;
