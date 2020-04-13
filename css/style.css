@@ -11,6 +11,7 @@ h1.blanc{
     height: 6px;
     line-height: 9px;
     font-size: 38px;
+    margin-left: 80px;
 }
 h2{
 	color: white;
@@ -28,6 +29,7 @@ p.sous-titre{
 	color: white;
 	height: 20px;
 	line-height: 1px;
+	margin-left: 126px;
 }
 p.linkhautdepage{
 	text-align: center;
