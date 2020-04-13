@@ -250,3 +250,20 @@ p.paragraphe1{
 	color: white;
 	font-size: 18px;
 }
+p.dressage{
+	color: white;
+	margin: auto; 
+	padding: auto;
+	position: relative;
+	top: -600px; 
+	font-size: 50px; 
+	text-align: center; 
+	z-index: -1;
+	text-shadow: 1px 1px 2px #222222, 0 0 1em #222222, 0 0 0.2em #222222;
+}
+.imgdressage{
+	position: relative;
+    color: white;
+    z-index: -2; 
+    padding: auto;
+}
