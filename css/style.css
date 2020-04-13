@@ -4,13 +4,13 @@
 .flotte {            /*fait flotter le logo de la guilde à gauche du nom en début de la page*/
 	float:left;
 	display: block;
-	width: 100;
 	top: 20PX;
+	size: 100px;
 }
 h1.blanc{
     color: #ffffff;
     text-align:left;
-    height: 1px;
+    height: 2px;
     line-height: 9px;
     font-size: 38px;
     margin-left: 80px;
