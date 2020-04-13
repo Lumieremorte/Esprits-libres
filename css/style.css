@@ -1,7 +1,5 @@
 /*Code pour les titres et paragraphes ainsi que le logo*/
-head{
-	position: absolute;
-}
+
 
 .flotte {            /*fait flotter le logo de la guilde à gauche du nom en début de la page*/
 	float:left;
