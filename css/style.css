@@ -255,7 +255,7 @@ p.dressage{
 	margin: auto; 
 	padding: auto;
 	position: relative;
-	top: 10px; 
+	top: -250px; 
 	font-size: 60px; 
 	text-align: center; 
 	z-index: -1;
