@@ -102,12 +102,12 @@ p.menu a:hover{				/*couleur quand on survole le menu (accueil etc)*/
     z-index: -2; 
     padding: auto;
 }
-p.devise{
+p.devise{				/*Joues comme tu le sens*/
 	color: white;
 	margin: auto; 
 	padding: auto;
 	position: relative;
-	top: -600px; 
+	top: -500px; 
 	font-size: 50px; 
 	text-align: center; 
 	z-index: -1;
