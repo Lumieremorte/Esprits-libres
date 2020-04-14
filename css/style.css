@@ -1,4 +1,4 @@
-/*Code pour les titres et paragraphes ainsi que le logo*/
+/*Titres et paragraphes ainsi que le logo*/
 
 
 p.flotte {            /*fait flotter le logo de la guilde à gauche du nom en début de la page*/
@@ -41,7 +41,7 @@ p.linkhautdepage{
 p.linkhautdepage a{
 	color: blue;
 }
-/*Code pour tous les liens hypertext*/
+/*liens hypertextes*/
 a {
   outline: none;
   text-decoration: none;
@@ -91,7 +91,7 @@ p.menu a:hover{ /*couleur quand on survole le menu (accueil etc)*/
 	font-size: 22px;
 }
 
-/* code page index*/
+/*page index*/
 
 .imgindex{
 	position: relative;
@@ -134,7 +134,7 @@ p.devise {
 
 
 
-/* code pour le deuxième menu de l'index*/
+/*deuxième menu de l'index*/
 
 body nav{
 	color: #ffffff;
@@ -184,7 +184,7 @@ div.menudeux{
 	display: block;
 	margin-top: -10px;
 }
-/*code page charte*/
+/*page charte*/
 	
 p.charte{
 	text-align: center;
@@ -194,7 +194,7 @@ p.charte{
 
 }
 
-/*Code page Staff*/
+/*page Staff*/
 h3{
 	text-align: center;
 	color: white;
@@ -227,14 +227,14 @@ p.nomshead{
 	margin: 100px;
 	line-height: 30px;
 }
-/* code pour la liste page Ton écran*/
+/*page Ton écran*/
 .ListeEcran{
 	color: white;
 	font-size: 21px;
 	margin: 0;
 	padding: 1;
 }
-/* code pour la liste page Optimisations*/
+/*page Optimisations*/
 p.titreoptimisation{
 	font-size: 50px;
 	color: white;
@@ -249,7 +249,7 @@ p.titreoptimisation{
 p.texteopti a{
 	color: gold;
 }
-/* code pour la page dressage*/
+/*page dressage*/
 
 p.paragraphe1{
 	color: white;
@@ -273,3 +273,4 @@ p.dressage{
     z-index: -2; 
     padding: auto;
 }
+/*page des liens utiles*/
