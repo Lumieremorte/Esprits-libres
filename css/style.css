@@ -1,10 +1,9 @@
 /*Code pour les titres et paragraphes ainsi que le logo*/
 
 
-div.flotte {            /*fait flotter le logo de la guilde à gauche du nom en début de la page*/
+p.flotte {            /*fait flotter le logo de la guilde à gauche du nom en début de la page*/
 	float:left;
-	display: inline-block;
-	top: 500PX;
+	display: block;
 }
 h1.blanc{
     color: #ffffff;
