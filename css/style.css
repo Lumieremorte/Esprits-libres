@@ -1,11 +1,11 @@
 /*Titres et paragraphes ainsi que le logo*/
 
 
-p.flotte {            /*fait flotter le logo de la guilde à gauche du nom en début de la page*/
+p.flotte {					/*Fait flotter le logo de la guilde à gauche du nom en début de la page*/
 	float:left;
 	display: block;
 }
-p.entete{
+p.entete{					/*Les esprits libres à côté du logo*/
     color: #ffffff;
     text-align:left;
     height: 1px;
@@ -14,7 +14,7 @@ p.entete{
     margin-left: 80px;
     padding: 2px;
 }
-p.sous-titre{
+p.sous-titre{				/*Guilde black desert online*/
 	color: white;
 	height: 1px;
 	line-height: 1px;
@@ -41,7 +41,9 @@ p.linkhautdepage{
 p.linkhautdepage a{
 	color: blue;
 }
+
 /*liens hypertextes*/
+
 a {
   outline: none;
   text-decoration: none;
@@ -76,6 +78,7 @@ footer{
 }
 
 /*Menu de toutes les pages (accueil/charte/staff*/
+
 p.menu{
 	color:white;
 	line-height: 40px;
@@ -84,7 +87,7 @@ p.menu{
 	background-color: #222222;
 	display: block;
 }
-p.menu a:hover{ /*couleur quand on survole le menu (accueil etc)*/
+p.menu a:hover{				/*couleur quand on survole le menu (accueil etc)*/
 	background-color: #222554;
 	display: box;
 	width: 40px;
@@ -195,6 +198,7 @@ p.charte{
 }
 
 /*page Staff*/
+
 h3{
 	text-align: center;
 	color: white;
@@ -228,6 +232,7 @@ p.nomshead{
 	line-height: 30px;
 }
 /*page Ton écran*/
+
 .ListeEcran{
 	color: white;
 	font-size: 21px;
@@ -235,6 +240,7 @@ p.nomshead{
 	padding: 1;
 }
 /*page Optimisations*/
+
 p.titreoptimisation{
 	font-size: 50px;
 	color: white;
@@ -274,3 +280,4 @@ p.dressage{
     padding: auto;
 }
 /*page des liens utiles*/
+
