@@ -9,9 +9,8 @@ div.flotte {            /*fait flotter le logo de la guilde à gauche du nom en 
 h1.blanc{
     color: #ffffff;
     text-align:left;
-    height: 2px;
     line-height: 9px;
-    font-size: 40px;
+    font-size: 38px;
     margin-left: 80px;
 }
 h2{
