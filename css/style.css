@@ -9,9 +9,18 @@ p.entete{
     color: #ffffff;
     text-align:left;
     height: 1px;
-    line-height: 9px;
+    line-height: 1px;
     font-size: 38px;
     margin-left: 80px;
+    padding: 2px;
+}
+p.sous-titre{
+	color: white;
+	height: 1px;
+	line-height: 1px;
+	margin-left: 126px;
+	font-size: 20px;
+	margin-top: -10px;
 }
 h2{
 	color: white;
@@ -24,12 +33,6 @@ p{
     color: #ffffff;
     height: 50px;
     line-height: 15px;
-}
-p.sous-titre{
-	color: white;
-	height: 20px;
-	line-height: 1px;
-	margin-left: 123px;
 }
 p.linkhautdepage{
 	text-align: center;
