@@ -8,9 +8,11 @@ p.flotte {            /*fait flotter le logo de la guilde √† gauche du nom en d√
 p.tete{
     color: #ffffff;
     text-align:left;
-    line-height: 7px;
+    height: 7px;
+    line-height: 9px;
     font-size: 38px;
     margin-left: 80px;
+    margin-top: 2px;
 }
 h2{
 	color: white;
