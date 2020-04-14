@@ -286,8 +286,25 @@ p.liens{
 	line-height: 23px;
 	color: white;
 }
-p.paragraphes{
-	font-size: 20px;
-	line-height: 18px;
+/*page informations*/
+
+p.titreonglets{
+	font-size: 25px;
 	color: white;
+	line-height: 15px;
+	text-align: center;
+	margin: -10px;
+}
+
+p.onglets{
+	font-size: 20px;
+	color: white;
+	line-height: 15px;
+	text-align: center;
+	margin: auto;
+}
+.listeonglets{
+	font-size: 17px;
+	color: white;
+	line-height: 19px;
 }
