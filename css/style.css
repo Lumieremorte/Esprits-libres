@@ -70,12 +70,7 @@ body{
     background-color: #000000;
     font-size: 150%;
 }
-footer{
-	color: white;
-	font-size: 20px;
-	text-align: center;
-	background-color: #222222;
-}
+
 
 /*Menu de toutes les pages (accueil/charte/staff*/
 
@@ -338,9 +333,12 @@ p.onglets{
 		z-index: 1;
 		text-shadow: 1px 1px 2px #222222, 0 0 1em #222222, 0 0 0.2em #222222;
     }
-    .content {
-  		min-height: calc(150vh - 70px);
-}
 	.footer {
+		margin-top: 100%;
+		line-height: 1px;
   		height: 30px;
+  		color: white;
+		font-size: 20px;
+		text-align: center;
+		background-color: #222222
 }

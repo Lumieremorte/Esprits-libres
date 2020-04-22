@@ -1,0 +1,48 @@
+====== Le Troc ======
+====== Initiation du Troc ======
+===== Introduction =====
+Le troc est une autre forme de commerce, qui vous fait voyager entre les îles afin d’échanger des objets jusqu’à obtenir les objets niveau 5 (rouge) et les vendre.\\
+<fc #ffff00>Vous trouverez dans la section du wiki : [[#contenu:navigation:caraque_et_reconverson|Navigation Reconversion & Caraque]], toutes les informations relatives à l’amélioration, ainsi que les quêtes disponibles pour l’optimisation des bateaux.</fc>
+
+===== Les prérequis =====
+Au départ vous pourrez échanger vos ressources de base tel que : 
+{{ :contenu:artisanat:basic-t.png?nolink&400 |}}
+Contre des objets de troc niveau 1, puis échanger les objets niveau 1 contre des objets niveau 2 et ainsi de suite jusqu’au niveau 5 pour enfin les vendre 5 millions pièce.
+{{  :contenu:artisanat:rouge-t.png?nolink&300  |}}
+
+==== Rentabilité ====
+Afin que le troc soit rentable il vous faut comme objectifs premiers :\\
+Navigation au niveau Qualifié 1, cela vous donnera accès à « voile joviale » qui est la version bateau de l’accélération fulgurante des montures terrestres.
+\\
+Augmenter la capacité de soute de votre bateau, pour cela il n’y a pas 36 solutions, il vous faut la « caravelle ».
+En effet la caravelle possède une capacité de 10000  LT, le voilier même en version « amélioré » n’est pas suffisant pour rentabiliser correctement les voyages, et il faut savoir que vous devrez voyager avec des objets pesant chacun entre 800 LT et 1000 LT.
+\\
+Au départ vous ne gagnerez pas énormément, mais en montant votre niveau de troc vous aurez accès à de plus en plus d’objets Niveau 5 pour chaque « actualisation de map », (les objets qui se vendent 5 millions chacun).
+les apparitions de spot de troc sur la carte peuvent se renouveler toutes les 4 heures via la fenêtre troc.\\
+Pour y accéder, affichez la carte et cliquez sur **l’icône représentant 2 petites flèches horizontales en bas de fenêtre**.
+  * Actualisation normale: toutes les 4 heures vous pouvez renouvelez la carte.\\
+  * Actualisation instantanée: Renouvelle directement la carte mais consomme 2 actualisations sur 4/jours.\\
+{{ :contenu:artisanat:win-t.png?nolink&400 |}}
+
+
+
+
+
+
+===== La Carte =====
+{{ :contenu:artisanat:carte-t.png?nolink&640x400 |}}
+La carte sera votre outil principal pour organiser vos voyages.\\
+En effet, vous pouvez constater sur la carte que vous échangerez certains objets contre un nombre supérieur d’objets du niveau suivant, pensez à bien calculer « après échange » sinon vous serez surchargé et mettrez 2 heures pour vous déplacer d’un point à un autre.\\
+N’hésitez pas lors de vos calculs de voyages à prendre en comptes les ventes d’objets rouges que vous pouvez faire en cours de route aux différents « bout à port », afin de libérer du poids et optimiser vos déplacements.  
+\\
+
+==== Les niveaux d’objet ====
+0 = les ressources de base\\
+1 = les objets de troc blancs\\
+2 = les objets verts\\
+3 = les objets bleus\\
+4 = les objets jaunes\\
+5 = les objets rouges\\
+
+Je n’ai plus qu’à vous souhaiter un bon vent et @ bientôt en mer !
+Eli (Sere).

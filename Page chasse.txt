@@ -1,0 +1,163 @@
+<php>
+// COPIER/COLLER LE LIEN D'IMAGE À LA PLACE DE LA PARTIE 'COLLER_ICI'
+// exemple : l'image à insérer est sous cette forme.
+// {{ :contenu:dressage:altinova_1.jpg?linkonly|}}
+// copier la partie comprise entre le premier ":" jusqu'au "?" et la coller à la place de la mention COLLER_ICI
+$dokuimg = "COLLER_ICI";
+$img = "/lib/exe/fetch.php?nolink&media=" .$dokuimg;
+if ($dokuimg != 'COLLER_ICI') {
+echo "<div class=\"banner_img\">";
+echo "<style>";
+echo "body.layout-first-main #sidebar-first { margin-top: 395px; }";
+echo "</style>";
+echo "<img src=\"$img\" />";
+echo "</div>";
+}
+</php>
+/** ↓ INSERER L'IMAGE SERVANT DE BANNIÈRE EN DESSOUS DE CETTE LIGNE ↓ **/
+/** (Le lien d'image peut être supprimer après insertion dans le script) **/
+
+/** le titre s'affiche dans le menu de gauche, il doit être aussi consi que possible **/
+
+
+/** Modèle pour Recette **/
+/** peut-être supprimé s'il n'y pas d'usage d'image SVG **/
+<php>
+// TECHNIQUE IDENTIQUE AU SCRIPT PRÉCÉDENT.
+$dokusvg = "COLLER_ICI";
+$svg = "/lib/exe/fetch.php?nolink&media=" .$dokusvg;
+if ($dokusvg != 'COLLER_ICI') {
+echo "<div class=\"dksvg_img\">";
+echo "<img src=\"$svg\" />";
+echo "</div>";
+}
+</php>
+/** ↓ INSERER L'IMAGE SVG EN DESSOUS DE CETTE LIGNE ↓ **/
+
+/** insertion d'iframe: page provenant du publication externe **/
+/** ATTENTION: pour des raisons de sécurité des sites, seule les pages dites "embed" avec un clé **/
+/** d'identification sont insérables **/
+/** (supprimer les tags de commentaire pour activer **/
+/**
+<html>
+<iframe id="g_docs" src="INSÉRER LA MENTION SOURCE ICI"></iframe>
+</html>
+**/
+====== La Chasse ======
+-------------------
+===== Introduction =====
+A quoi sert la chasse???
+principalement à monter son métier pour pouvoir s'équiper du meilleur mousquet en jeu (artisan +10)
+pour pouvoir chasser les Baleines Bleue dans l’océan, qui donnent de très bon loots.
+
+==== Bien débuter ====
+Pour débuter, exercez-vous en louant un mousquet de chasse à Daphne DelLucci  au node "ferme de Balenos", derrière Velia, et suivez la quête.
+Ainsi fait , allez voir la première série de quêtes quotidiennes, et équipez-vous d'un mousquet apprenti et d'un couteau de boucher.
+Ramassez à chaque mobs de chasse tué à l'aide de ce couteau, il vous permettra de ramasser sa viande, parfois son sang, et surtout un jeton d'XP. et parfois même un objet "trophée", une décoration à mettre dans sa résidence.
+Tout rendu de quête vous donnera quelques "médailles de chasseur" à garder précieusement.
+Ces médailles donnent droit à :
+  * des possibilités d'échanges avec des mousquets supérieurs.
+  * d'accepter les quêtes des Boss de chasse.
+
+>__Astuce__ : Acheter des [[bdbitm>11003|gants de Puissance Herculéenne]] qui octroie 2 emplacements de cristaux magique et y mettre 2 [[bdbitm>15645|Cristaux de Pércée]] qui ajoute +2 de coup critique.
+
+=== Récompenses ===
+  * 10 médailles de chasseur = [[bdbitm>16157|Mousquet de chasse de débutant]]
+  * 20 médailles de chasseur = [[bdbitm>16158|Mousquet de chasse d'apprenti]]
+  * 30 médailles de chasseur = [[bdbitm>16159|Mousquet de chasse qualifié]]
+  * 50 médailles de chasseur = [[bdbitm>16160|Mousquet de chasse professionnel]]
+  * 60 médailles de chasseur = Parchemin de boss - [[bdbitm>42493|Loup blanc]]
+  * 60 médailles de chasseur = Parchemin de boss - [[bdbitm>42494|Roi des ours bruns]]
+
+>un [[bdbitm>16161|Mousquet de chasse d'artisant]] est aussi disponible en-dehors du système de récompense.
+
+===== Quêtes et progression =====
+==== Quêtes de Chasse à Olvia ====
+
+Au PNJ Chuck Laurie
+3 séries de quêtes faciles, portez quand même votre stuff pour vous défendre contre l'ours (dernière des 3 quêtes)
+1 quête bonus 
+Au début, on ramassera toujours les loots pour l'XP, mais au fil du temps, on se passera des loots d'XP des cerfs (1ère quête) puis des sangliers (2ème quête)  puis de l'ours (3ème quête) car elle seront devenues vraiment trop peu significatives, après c'est à vous de voir si vous voulez continuer pour récup telle ou telle viande, selon vos besoins.
+
+==== Quêtes de Chasse aux Iles de Balenos ====
+> niveau qualifié requis.
+Là c'est une longue série de quêtes qui, finalement vous donnera pas mal d'XP si faite en entier et assez régulièrement. De plus elle donne un peu d'argent.
+Elle se trouve d’abord dans les "répétables" puis basculeront après dans les "suggérées" après l'avoir faite une première fois.
+
+Les premiers PNJ vous permettront de réparer votre mousquet, ceux de la fin de série de quêtes ne proposeront plus la réparation: soit vous commencez en fin de série de quêtes, soit vous vous préparez des mousquets de rechange.
+
+Porter son stuff est recommandable pour certaines de ces quêtes (ours, et loups)
+
+Une des quêtes vous mènera sur l'île d'Orffs, éliminer des mouettes, je vous recommande de récupérer les "viandes d'oiseau" nécessaires plus tard pour invoquer des Boss de chasse que je citerai plus bas.
+
+
+==== Quêtes de Chasse à Areha ====
+> Ouest de Valencia : Mousquet PRO +5 minimum.
+//description à venir//
+
+
+==== Quêtes de Chasse à Kamasylvia ====
+> Mousquet PRO +8 minimum.
+
+Avant Poste Acher : 
+  * PNJ : [[bdbnpc>45568|Jasmine]] : 1 quête 
+  * PNJ : Garde Acher : 1 quête 
+  * PNJ : [[bdbnpc>45571|Mokassa]] : 1 quête (avec une pré-quête, donner 5 carottes contre un fruit, qui sert a invoquer les belettes, puis faudra rendre la quête a [[bdbnpc>45528|Jerrimo]]
+
+>à la Montagne de Valtarra Ouest, pas si loin de Aniki, ce n'est ni le Jerrimo de la cabane Fées-des-dents, ni celui de la forêt Decaduil)
+
+Dans Les Hauteurs de l'Avant Poste Acher : 
+  * PNJ : [[bdbnpc>50720|Aniki]] : 2 quêtes 
+  * PNJ : [[bdbnpc>45528|Jerrimo]] : 1 quêtes + 1 quete bonus pour une belette de Kamasylvia empaillé
+
+
+
+==== Les Boss de Chasses ====
+> A prendre au PNJ Igor Bartali à Velia.
+Cela consiste à journellement invoquer deux boss de chasses. il vous faudra préparer 1 piège pour chaque boss, allez sur le lieu, activé le parcho de quête correspondante, puis activé le piège, puis attendre quelques secondes, puis éliminer le boss. ils sont costaud, stuff défensive requis, puis avoir au moins un mousquet PRO +5 et un autre mousquet de même niveau ou un peu inférieure.
+
+=== Le loup ===
+> vers la grotte des Efrits, nécessite avoir pris la quête.
+__préparer le piège avec__ :
+  * Viande d'oiseau x10
+  * Viande de belette ou de raton-laveur x10
+  * Elixir au parfum déliquat x1 (s'achète au PNJ de matériaux [[bdbnpc>40002|Zaaira]] pas loin d'[[bdbnpc>40017|Igor Bartali]])
+Ouvrez la fenêtre Transformation, et sélectionnez Alchimie simple pour combiner 
+
+=== L'Ours ===
+> avant la ferme Toscani à Velia, nécessite avoir pris la quête.
+__préparer le piège avec__ :
+  * Viande d'oiseau x10
+  * Viande de loup ou renard x10
+  * Elixir au parfum déliquat x1 (s'achète au PNJ de matériaux [[bdbnpc>40002|Zaaira]] pas loin d'[[bdbnpc>40017|Igor Bartali]])
+Ouvrez la fenêtre Transformation, et sélectionnez Alchimie simple pour combiner 
+
+==== La chasses au Khalks ====
+2 Khlak sont disponibles, l'un entre Trent et Bher, l'autre sur la montagne entre Sud Media et l'entrée de Drieghan. ils sont symbolisés par un logo de "chauve-souris" sur la map quand ils ont pop.
+Cela se fait en équipe et recommandé à cheval
+les loots sont les suivants :
+//a venir// 
+
+
+==== La Chasse à la Baleine Bleue ====
+//à venir//
+
+===== Notes diverses ===== 
+Vous pouvez vous équiper du [[bdbitm>16161|Mousquet de chasse Artisan]] dès le niveau PRO 10.
+
+Ce mousquet optimisé +10 est actuellement le meilleur mousquet en jeu, on ignore si un mousquet maître sera implanté plus tard.
+
+Passez au niveau Artisan 1 semble ne pas donner d'avantages quelconques, à vérifier.
+
+=== Bonus divers utilisable ===
+Il existe une [[bdbitm>14013|tenue de métier de chasse]], mais semble totalement désuette, surtout si il vous faut alterner avec votre stuff défensif en cas de mobs à chasser délicat ou boss, je ne le conseille pas.
+Il existe une popo pour accélérer la recharge de mousquet, je ne l'utilise que pour les deux boss
+Il existe aussi des popo de critique, sympa aussi pour les deux boss
+| Objet                                                                                                     |^  origine                   ^  bonus                                                    ^
+|  Vêtements                                                                                                                                                                                       ||||
+|  {{:contenu:artisanat:00014013.png?30&nolink}}  ^ [[bdbitm>14013|Vêtements de Chasseur]]                   |  récompense\\ Qualifié 10  | chasse +10%\\ vision +10m\\ dégat de chute -50%           |
+| :::                                             ^ [[bdbitm>14024|Vêtements de Chasseur]]\\ Brodé d'Argent  |  craft                     | déplacement +1, DP 1 (+0)\\ à déplacement +4, DP 29 (+5)  |
+| :::                                             ^ [[bdbitm>14321|Vêtements de Chasseur]]                   |  cash shop                 | chasse +10%\\ vision +10m\\ dégat de chute -50% (?)       |
+|  Plats cuisinés                                                                                                                                                                                  ||||
+|  {{:contenu:artisanat:00009459.png?30&nolink}}  ^ [[bdbitm>9459|Salade du Chasseur]]                       |  craft                     | vitesse de recharge +7%\\ durée 30mn\\ cooldown 30mn      |
+|  {{:contenu:artisanat:00009460.png?30&nolink}}  ^ [[bdbitm>9460|Salade du Chasseur Fraîche]]               |  craft                     | vitesse de recharge +13%\\ durée 40mn\\ cooldown 40mn     |
