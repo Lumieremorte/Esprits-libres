@@ -88,48 +88,42 @@ p.menu a:hover{				/*couleur quand on survole le menu (accueil etc)*/
 	width: 40px;
 	font-size: 22px;
 }
+.footer {
+  	height: 94px;
+  	color: white;
+	font-size: 18px;
+	text-align: center;
+	background-color: #202121
+}
 
 /*page index*/
 
-.imgindex{
+.imgindex{					/*image de l'accueil*/
 	position: relative;
     color: white;
     z-index: -2; 
     padding: auto;
 }
-p.devise{				/*Joues comme tu le sens*/
-	color: white;
-	margin: auto; 
-	padding: auto;
-	position: relative;
-	top: -500px; 
-	font-size: 50px; 
+.parent {
+    position: relative;
+    }
+.child1 {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    }
+.child2 {
+    z-index: 1;				/*Joues comme tu le sens*/
+    align-content: center;
+    color: white;
+	padding: auto; 
+	margin-top: 400px;
+	font-size: 100px;
+	line-height: 30px; 
 	text-align: center; 
-	z-index: -1;
+	z-index: 1;
 	text-shadow: 1px 1px 2px #222222, 0 0 1em #222222, 0 0 0.2em #222222;
 }
-
-p.devise {font-size: 3em;}
-
-@media screen and (max-width: 90em) {
-p.devise {
-    font-size: 5em;
-  }
-}
-
-@media screen and (max-width: 60em) {
-p.devise {
-    font-size: 2em;
-  }
-}
-
-@media screen and (max-width: 30em){
-p.devise {
-    font-size: 1.5em;
-  }
-}
-
-
 
 
 /*deuxième menu de l'index*/
@@ -204,6 +198,7 @@ h3{
 	float: right;
 	text-align: left;
 	size: 300px;
+	margin-top: 39px;
 }
 p.noms{
 	font-size: 25px;
@@ -312,32 +307,4 @@ p.onglets{
 	color: white;
 	line-height: 19px;
 	text-align: center;
-}
-/*test pour divs*/
-    .parent {
-        position: relative;
-    }
-    .child1 {
-        position: absolute;
-        width: 100%;
-        height: 70%;
-    }
-    .child2 {
-        z-index: 1;
-        align-content: center;
-        color: white;
-		padding: auto; 
-		margin-top: 400px;
-		font-size: 90px; 
-		text-align: center; 
-		z-index: 1;
-		text-shadow: 1px 1px 2px #222222, 0 0 1em #222222, 0 0 0.2em #222222;
-    }
-	.footer {
-		margin-top: 90%;
-  		height: 90px;
-  		color: white;
-		font-size: 20px;
-		text-align: center;
-		background-color: #222222
 }

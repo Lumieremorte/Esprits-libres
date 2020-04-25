@@ -15,7 +15,7 @@ echo "</div>";
 }
 </php>
 /** ↓ INSERER L'IMAGE SERVANT DE BANNIÈRE EN DESSOUS DE CETTE LIGNE ↓ **/
-/** (Le lien d'image peut être supprimer après insertion dans le script) **/
+/** (Le lien d'image peut être supprimé après insertion dans le script) **/
 
 /** le titre s'affiche dans le menu de gauche, il doit être aussi consi que possible **/
 
