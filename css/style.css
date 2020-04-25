@@ -129,6 +129,9 @@ div.child2 {
 	margin: auto;
 	padding: auto;
 }
+body{
+	height: 100%;
+}
 
 
 /*deuxième menu de l'index*/
