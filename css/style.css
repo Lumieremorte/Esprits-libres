@@ -34,11 +34,11 @@ p{
     height: 50px;
     line-height: 15px;
 }
-p.linkhautdepage{
+p.linkhautdepage{			/*en bas de chaque page pour retourner en haut de la page*/
 	text-align: center;
 	text-decoration: underline blue;
 }
-p.linkhautdepage a{
+p.linkhautdepage a{			/*couleur du link haut de page*/
 	color: blue;
 }
 
@@ -88,7 +88,7 @@ p.menu a:hover{				/*couleur quand on survole le menu (accueil etc)*/
 	width: 40px;
 	font-size: 22px;
 }
-.footer {
+.footer {					/*pied de page*/
   	height: 94px;
   	color: white;
 	font-size: 18px;
@@ -98,23 +98,20 @@ p.menu a:hover{				/*couleur quand on survole le menu (accueil etc)*/
 
 /*page index*/
 
-.imgindex{					/*image de l'accueil*/
-	position: relative;
-    color: white;
-    z-index: -2;
-    width: 100%;
-}
-div.parent {
+
+div.parent {				/*div contenant l'image d'acceuil et devise*/
     position: relative;
     margin: 0 auto;
+
     }
-div.child1 {
+div.child1 {				/*image de l'accueil*/
     position: absolute;
     width: 100%;
     height: 70%;
+    z-index: -2;
     }
 div.child2 {
-    z-index: 1;				/*Joues comme tu le sens*/
+    z-index: 0;				/*Joues comme tu le sens*/
     align-content: center;
     color: white;
 	padding: auto; 
@@ -123,6 +120,15 @@ div.child2 {
 	line-height: 30px; 
 	text-align: center; 
 	text-shadow: 1px 1px 2px #222222, 0 0 1em #222222, 0 0 0.2em #222222;
+}
+div.menudeux{
+	position: absolute;
+	margin: auto;
+	width: 100%;
+	padding: 0;
+	z-index: 2;
+	display: block;
+	margin-top: -10px;
 }
 .testbody{
 	width: 99%;
@@ -176,14 +182,7 @@ body nav ul li:hover ul li{
 body nav ul li:visited {
   color: white;
 }
-div.menudeux{
-	margin: auto;
-	width: 100%;
-	padding: 0;
-	z-index: 1;
-	display: block;
-	margin-top: -10px;
-}
+
 /*page charte*/
 	
 p.charte{
@@ -238,17 +237,23 @@ p.nomshead{
 	padding: 1;
 }
 /*page Optimisations*/
+body.bodyopti{
+	font-size: 20px;
+    color: white;
+    padding: auto;
+    margin: auto;
+    line-height: 30px
+}
 
 p.titreoptimisation{
 	font-size: 50px;
 	color: white;
 	text-align: center;
 }
-.texteopti{
+p.texteopti{
 	font-size: 20px;
     text-align: left;
     color: white;
-    line-height: 30px;
 }
 p.texteopti a{
 	color: gold;
