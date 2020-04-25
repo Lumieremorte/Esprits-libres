@@ -334,14 +334,10 @@ p.onglets{
 		text-shadow: 1px 1px 2px #222222, 0 0 1em #222222, 0 0 0.2em #222222;
     }
 	.footer {
-		margin-top: 100%;
+		margin-top: 90%;
   		height: 90px;
   		color: white;
 		font-size: 20px;
 		text-align: center;
 		background-color: #222222
-}
-body{
-	width: 100%;
-	height: 90%;
 }
