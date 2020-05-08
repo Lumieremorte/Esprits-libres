@@ -254,6 +254,13 @@ p.texteopti{
 	font-size: 20px;
     text-align: left;
     color: white;
+    line-height: 23px;
+}
+p.opti{
+	font-size: 20px;
+    text-align: left;
+    color: white;
+    line-height: 21px;
 }
 p.texteopti a{
 	color: gold;
