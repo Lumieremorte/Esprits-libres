@@ -1,35 +1,31 @@
 <!DOCTYPE html>
 <!-- pour dire le type de document à notre explorer <tag(balise) puis attribut>-->
 <html lang="fr">
-        <head>
-            <section id="section1">
-            <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1, Edge=1"/>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-            <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
-            <title img="/img/favicon.png">Accueil | Les Esprits Libres</title>
+    <head>
+        <section id="section1">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1, Edge=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
+        <title>Accueil | Les Esprits Libres</title>
             <!-- c'est le titre de la page -->
-            <meta charset="utf-8"/>
+        <meta charset="utf-8"/>
             <!-- c'est pour accepter les circonflexes trémas, etc -->
-            <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
             <!-- c'est pour se référer à la feuille css -->
-        </head>
+    </head>
         <header>
             <br>
             <!-- c'est pour sauter une ligne -->
             <p class="flotte">
             <!-- c'est pour créer une classe, un type spécial pour ce qui est séléctionné (ici le paragraphe p) -->
-                <img src="img/logo.png" alt="logo" width="65">
-
-                
-                       
-                        <h1 class="blanc"
-                        style="margin-left: 80px">
-                        Les Esprits Libres
-                        </h1>
+                <img src="img/logo.png" alt="logo" width="65"></p>
+           
+                    <p class="entete">
+                    Les Esprits Libres
+                    </p>
                  </section> 
 
-            <p class="sous-titre"
-            style="margin-left: 126px">
+            <p class="sous-titre">
                 Guilde Black Desert Online EU
             </p>
             <br/><br/>
@@ -40,7 +36,7 @@
                
             </p>
         </header>
-            <body>
+            <body class="testbody" >
                 <!-- c'est pour le corps du site -->
                             <div class="menudeux">
                                 <nav><!-- navigation du deuxième menu-->
@@ -49,23 +45,23 @@
                                             <ul><!-- sous-menu-->
                                                 <li><a href="Ton écran.html">Ton écran</a></li>
                                                 <li><a href="Inventaire.html">Ton inventaire</a></li>
-                                                <li>Tes informations</li>
+                                                <li><a href="Informations.html">Tes informations</a></li>
                                             </ul></li>
                                         <li>Métiers
                                             <ul>
-                                                <li>Récolte</li>
-                                                <li>Pêche</li>
-                                                <li>Chasse</li>
-                                                <li>Cuisine</li>
-                                                <li>Alchimie</li>
-                                                <li>Transformation</li>
-                                                <li><a href="Dressage.html">Dressage</a></li>
-                                                <li>Commerce</li>
-                                                <li>Agriculture</li>
-                                                <li>Navigation</li>
-                                                <li>Troc</li>
-                                                <li>Fabrication</li>
-                                            </ul>
+                                                <li><a href="../Métiers/Récolte.html">Récolte</a></li>
+                                                <li><a href="../Métiers/Pêche.html">Pêche</a></li>
+                                                <li><a href="../Métiers/Chasse.html">Chasse</a></li>
+                                                <li><a href="../Métiers/Cuisine.html">Cuisine</a></li>
+                                                <li><a href="../Métiers/Alchimie.html">Alchimie</a></li>
+                                                <li><a href="../Métiers/Transformation.html">Transformation</a></li>
+                                                <li><a href="../Métiers/Dressage.html">Dressage</a></li>
+                                                <li><a href="../Métiers/Commerce.html">Commerce</a></li>
+                                                <li><a href="../Métiers/Agriculture.html">Agriculture</a></li>
+                                                <li><a href="../Métiers/Navigation.html">Navigation</a></li>
+                                                <li><a href="../Métiers/Troc.html">Troc</a></li>
+                                                <li><a href="../Métiers/Fabrication.html">Fabrication</a></li>
+                                            </ul></li>
                                         
                                         <li><a href="Optimisations.html">Optimisation</a></li>
                                         <li>Discord par classe
@@ -87,19 +83,24 @@
                                                 <li><a href="https://discord.gg/BffuD8s" target="_blank">Gardiana</a></li>
                                             </ul>
                                         </li>
-                                        <li>Liens utiles</li>
-                                       </li> 
+                                        <li><a href="Liens utiles.html">Liens utiles</a></li>
                                     </ul>
                                 </nav>
                             </div>
-                                
-                    <img src="img/the world is mine.png" width=100% align="center" class="imgindex">
-                    <p class="devise">Joues comme tu le sens</p>
-                    
+
+        <div class="parent">
+          <div class="child1"><img src="img/the world is mine.png" width="100%" align="center" class="imgindex"></div>
+          <div class="child1 child2">Joues comme tu le sens</div>
+        </div>
+        
             </body>
-<p class="linkhautdepage">
-<a href="#section1">Haut de la page</a>
-</p>
-                <footer>©2020. Créé par LumiereMorte des Esprits Libres</footer>
+                <footer style="
+                margin-top: 88%;     
+                height: 94px;
+                color: white;
+                font-size: 18px;
+                text-align: center;
+                background-color: #202121;">
+                <p class="linkhautdepage"><br><a href="#section1">Haut de la page</a></p>©2020. Créé par LumiereMorte des Esprits Libres</footer>
 
 </html>

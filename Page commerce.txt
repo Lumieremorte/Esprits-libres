@@ -1,0 +1,89 @@
+====== Le commerce ======
+Le système est le suivant : \\
+Il vous faut faire des caisses le plus loin possible de la destination finale, **Valencia**, (ex: **Grana**) pour ensuite les revendre au pnj commerçant de Valencia en passant prendre le **buff du désert** (explication plus loin).
+
+===== Préparé sa route =====
+Il y a divers possibilités sachant que plus la route est longue plus le rapport est important.\\
+Trois solutions terrestres :
+  * Calpheon > Valencia (44 point de contributions).
+  * Granà > Valencia (67 points de contributions).
+
+> La collection de points de contributions pouvant être longuette, une méthode peut être de constituer sa route en commençant par la fin: Valencia, puis de remonter graduellement au fur et à mesure de l'obtention de points jusqu'à Calpheon et pour finir à Granà.\\
+:ATTN: le buff du désert n'est valable que pour le commerce avec Valencia, inutile d'investir plus loin.
+{{imglayer>:contenu:map_bdo_brute.jpg,:contenu:artisanat:full_map_com1.svg|260,on|145,180,470|on}}
+===== Le réseau d’ouvier =====
+(étape 1) Établir un **réseau d’ouvrier** afin de produire vos **caisses de commerce**. 
+:EDIT:
+
+Je n’entrerai pas ici dans le détail des nodes et ouvriers les tutos sont foisons sur le net.
+> **pour le bonus distance à la revente**\\ Embauchez vos ouvriers à Grana !\\ Stockez votre marchandise également à Grana et vos usines dans les villes permettant la production, vos ouvriers feront le déplacement à pied mais les caisses seront considérées comme venant de Grana !!.
+===== Préparer sa production =====
+(étape 2) Choisir et préparer votre production. 
+
+Plusieurs possibilités : 
+  * les caisses de lingots.
+  * les végétaux
+  * le bois
+ (les pierres précieuses, métaux précieux etc. étant trop long à récupérer pour une production de masse).
+\\
+
+ Les caisses de métaux (**caisses de lingots de laiton**) peuvent être très intéressantes si vous maîtrisez la transformation pour en faire du métal fondu et des lingots avant la mise en caisse par vos ouvriers.\\
+(rapportent 2x plus que les végétaux à la revente).
+\\
+
+Les caisses de bois demandent également une transformation.
+\\
+
+Les végétaux rapportent moins, (**tournesols, olives ou poivrons**) mais demandent beaucoup moins de préparation et aucune transformation, (donc du temps pour faire autre chose).\\
+Laissez un reroll « agriculture » dessus et nettoyez vos plantations de temps en temps.\\
+
+>:NOTE: L'avantage complémentaire de l'agriculture est que lors de la récolte des graines, vous récupérerez des petites graines supplémentaires, {{  fourrage.png?170}} Celles-ci permettant via une transformation en cuisine simple par 2 lots de 20 unités d’obtenir des « **fourrages de la queue de pierre** » indispensable pour entraînement des chevaux T9.\\
+>Ainsi que d’autres petites choses bien utiles en Alchimie et en Troc.{{ :contenu:artisanat:commerce_image_1.png?nolink&100 |}}
+
+=== Petit détail complémentaire sur l'agriculture ===
+  * {{  commerce_image_2.png?35}} Petit détail sur l’agriculture, il vous faudra être artisan 1 pour accéder aux graines dorées (**graines magiques**)  qui rapportent beaucoup de ces suppléments et permettent de ne poser que 2 graines au lieu de 10, par clôtures, autrement dit, un graine magique prend 5 places.
+  * Il vous faudra être maître 1 pour avoir accès aux clôtures de la vielle lune qui prennent beaucoup moins de place que les grandes clôtures de 10 places.
+  * {{  commerce_image_3.png?35}} Vous récolterez de temps en temps des « **graines mystérieuses** »  à assembler avec une « **graine spéciale** » (bleue) via le mélange qui donne beaucoup de végétaux mais il est impossible de récupérer des graines sur cette pousse vous ne pourrez que récolter les végétaux. (Ces graines prennent aussi 5 places chacune).
+  * {{  commerce_image_4.png?35}} Vous récupérerez aussi de temps en temps des **éclats durs et tranchants**, ainsi que quelques **amas de magie pure** (arme de sombrétoile), et des « **Kermés femelle** »  à emporter lors de vos voyages à **Valencia** et revendre en lot dans la foulée, mais **<fc #ffff00>attention à ne pas vous surcharger</fc>** sinon vous ne pourrez pas prendre le buff commerce du désert au passage.\\ 
+Maintenant que vous avez judicieusement fait votre choix et préparé votre empire d’ouvrier, nous allons passer au commerce à proprement parler.
+
+===== Monter son niveau de commerce =====
+(étape 3)\\
+Monter votre commerce jusqu’à **artisan 2** pour bénéficier du buff du désert en commerce (//**+ 50% à la reventesur le prix des objets de commerce**// ). 
+/* > Il existe sur le net des informations quant aux techniques pour monter rapidement son commerce, faites une recherche sur « **BDO commerce roulade** » cela vous montrera les bases à adapter.\\ */
+> Voir la partie du guide de Spirito dédiée à la [[https://black-desert.fr/euna/guide-commerce-ouvriers-caisses-annexe|roulade]].\\ (perso je ne l’ai fait que sur 1 point de commerce…)
+===== Bonus et équipement =====
+**Obtenir le buff du désert** (étape 4) :
+  * Allez voir [[bdbnpc>45210|Ashim]] à [[bdbnod>1331|Oasis d'Ibellab]], quête: [[bdbq>5704/1|Une Oasis pacifique]].
+  * Retournez voir [[bdbnpc>45103|Atui Balacs]] au [[bdbnod>1319|Bazar du grain de sable]] et prendre la quête [[bdbq>5801/1|Une aire de repos au milieu des sables brûlants]].
+  * Achever la chaine avec la quête [[bdbq>5801/2|Jeton de la ligue de Lavania]] au [[bdbnod>1334|Sanctuaire du pèlerin : le partage]].
+
+Le jeton obtenu donnera un buff de commerce d'1 heure renouvelable toutes les 24h.
+Le délais achevé retourner voir [[bdbnpc>50619|Samaya]] pour un autre jeton.
+
+{{imglayer>:contenu:map_bdo.jpg,:playground:direction_nodes.svg|300,on|540,340,750,on}}
+\\
+{{commerce_image_5.png  ?156}} {{commerce_image_6.png?191}}
+
+Lors de vos voyages pensez à utiliser les buffs d’objets tels que :
+== équipements indispensables ==
+^ Objet                                                                                      |^ bonus                                                                                                ^
+|  {{00014016.png?30&nolink}}  | **[[bdbitm>14021| Vêtements de marchand brodés d’argent]]**  | XP Profession + 15% en +2\\ limite de poids +200LT\\ Vitesse de déplacement +2                       |
+|  {{00009691.png?30&nolink}}  | **[[bdbitm>9691|Repas de fruits de mer de Cron]]**           | XP Profession + 10%\\ EXP de profession +10 %\\ Vitesse de déplacement +2\\ Limite de poids +100 LT\\ 120mn  |
+|  {{00009490.png?30&nolink}}  | **[[bdbitm>9490|Brochette de lama au fromage fondu]]**       | Limite de poids +100 LT\\ 60mn                                                                             |
+|  {{00015994.png?30&nolink}}  | **[[bdbitm>16091|Bénédiction de GM]]**                       | XP Profession + 10%\\ 60mn                                                                                  |
+|  {{00000791.png?30&nolink}}  | **[[bdbitm>791|Breuvage de verdure]]**                       | XP Profession + 20%\\ Limite de poids +200 LT\\ Vitesse de déplacement +3\\ EXP de profession +20 %\\ 15mn  |
+=== ===
+
+Pensez à faire le mini jeu au PNJ et sortir vos pets qui donnent de l’XP de profession ou de commerce.\\
+{{  commerce_image_11.png?366  }}
+
+===== Conclusion =====
+Voilà, il ne vous reste plus qu'à charger vos caisses à partir du dépôt directement sur votre monture (7150 caisses max), mettre dans votre inventaire les petits objets de commerce supplémentaires sans vous surcharger, prendre vos potions, nourriture, vêtements, eau purifiée et thé anisé pour les débuffs du désert, et trottiner jusqu'à Valencia en passant prendre le buff commerce auprès de Samaya ... et vous voilà riche !!
+
+===== Commerce maritime =====
+:EXPERIMENT: :BROUIL: Il s'agit d'une méthode qui au lieu d'utiliser uniquement la voie terrestre s'emploiera à lui substituer la voie maritime.
+\\
+
+== Lien utiles ==
+[[https://black-desert.fr/euna/guide-commerce-ouvriers-caisses-annexe|Voir aussi le guide de Spirito pour des infos supplémentaires et bien utiles]]

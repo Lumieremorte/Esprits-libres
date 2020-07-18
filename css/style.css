@@ -1,16 +1,26 @@
-/*Code pour les titres et paragraphes ainsi que le logo*/
+/*Titres et paragraphes ainsi que le logo*/
 
 
-.flotte {            /*fait flotter le logo de la guilde à gauche du nom en début de la page*/
+p.flotte {					/*Fait flotter le logo de la guilde à gauche du nom en début de la page*/
 	float:left;
-	text-align: center;
+	display: block;
 }
-h1.blanc{
+p.entete{					/*Les esprits libres à côté du logo*/
     color: #ffffff;
     text-align:left;
-    height: 6px;
-    line-height: 9px;
+    height: 1px;
+    line-height: 1px;
     font-size: 38px;
+    margin-left: 80px;
+    padding: 2px;
+}
+p.sous-titre{				/*Guilde black desert online*/
+	color: white;
+	height: 1px;
+	line-height: 1px;
+	margin-left: 128px;
+	font-size: 18px;
+	margin-top: -10px;
 }
 h2{
 	color: white;
@@ -24,19 +34,16 @@ p{
     height: 50px;
     line-height: 15px;
 }
-p.sous-titre{
-	color: white;
-	height: 20px;
-	line-height: 1px;
-}
-p.linkhautdepage{
+p.linkhautdepage{			/*en bas de chaque page pour retourner en haut de la page*/
 	text-align: center;
 	text-decoration: underline blue;
 }
-p.linkhautdepage a{
+p.linkhautdepage a{			/*couleur du link haut de page*/
 	color: blue;
 }
-/*Code pour tous les liens hypertext*/
+
+/*liens hypertextes*/
+
 a {
   outline: none;
   text-decoration: none;
@@ -61,16 +68,11 @@ a:active {
 }
 body{
     background-color: #000000;
-    font-size: 150%;
-}
-footer{
-	color: white;
-	font-size: 20px;
-	text-align: center;
-	background-color: #222222;
 }
 
+
 /*Menu de toutes les pages (accueil/charte/staff*/
+
 p.menu{
 	color:white;
 	line-height: 40px;
@@ -78,58 +80,67 @@ p.menu{
 	text-align: center;
 	background-color: #222222;
 	display: block;
+	width: 100%;
 }
-p.menu a:hover{ /*couleur quand on survole le menu (accueil etc)*/
+p.menu a:hover{				/*couleur quand on survole le menu (accueil etc)*/
 	background-color: #222554;
 	display: box;
 	width: 40px;
 	font-size: 22px;
 }
-
-/* code page index*/
-
-.imgindex{
-	position: relative;
-    color: white;
-    z-index: -2; 
-    padding: auto;
+.footer {					/*pied de page*/
+  	height: 94px;
+  	color: white;
+	font-size: 18px;
+	text-align: center;
+	background-color: #202121;
 }
-p.devise{
-	color: white;
-	margin: auto; 
-	padding: auto;
-	position: relative;
-	top: -600px; 
-	font-size: 50px; 
+
+/*page index*/
+
+
+div.parent {				/*div contenant l'image d'acceuil et devise*/
+    position: relative;
+    margin: 0 auto;
+
+    }
+div.child1 {				/*image de l'accueil*/
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    z-index: -2;
+    }
+div.child2 {
+    z-index: 0;				/*Joues comme tu le sens*/
+    align-content: center;
+    color: white;
+	padding: auto; 
+	margin-top: 400px;
+	font-size: 100px;
+	line-height: 30px; 
 	text-align: center; 
-	z-index: -1;
 	text-shadow: 1px 1px 2px #222222, 0 0 1em #222222, 0 0 0.2em #222222;
 }
-
-p.devise {font-size: 3em;}
-
-@media screen and (max-width: 90em) {
-p.devise {
-    font-size: 5em;
-  }
+div.menudeux{
+	position: absolute;
+	margin: auto;
+	width: 100%;
+	padding: 0;
+	z-index: 2;
+	display: block;
+	margin-top: -10px;
 }
-
-@media screen and (max-width: 60em) {
-p.devise {
-    font-size: 2em;
-  }
+.testbody{
+	width: 99%;
+	margin: auto;
+	padding: auto;
 }
-
-@media screen and (max-width: 30em){
-p.devise {
-    font-sitze: 1.5em;
-  }
+body{
+	height: 100%;
 }
 
 
-
-
-/* code pour le deuxième menu de l'index*/
+/*deuxième menu de l'index*/
 
 body nav{
 	color: #ffffff;
@@ -171,15 +182,8 @@ body nav ul li:hover ul li{
 body nav ul li:visited {
   color: white;
 }
-div.menudeux{
-	margin: auto;
-	width: 100%;
-	padding: 0;
-	z-index: 1;
-	display: block;
-	margin-top: -10px;
-}
-/*code page charte*/
+
+/*page charte*/
 	
 p.charte{
 	text-align: center;
@@ -189,7 +193,8 @@ p.charte{
 
 }
 
-/*Code page Staff*/
+/*page Staff*/
+
 h3{
 	text-align: center;
 	color: white;
@@ -200,6 +205,7 @@ h3{
 	float: right;
 	text-align: left;
 	size: 300px;
+	margin-top: 39px;
 }
 p.noms{
 	font-size: 25px;
@@ -222,26 +228,103 @@ p.nomshead{
 	margin: 100px;
 	line-height: 30px;
 }
-/* code pour la liste page Ton écran*/
+/*page Ton écran*/
+
 .ListeEcran{
 	color: white;
 	font-size: 21px;
 	margin: 0;
 	padding: 1;
 }
-/* code pour la liste page Optimisations*/
+/*page Optimisations*/
+body.bodyopti{
+	font-size: 20px;
+    color: white;
+    padding: auto;
+    margin: auto;
+    line-height: 30px
+}
+
 p.titreoptimisation{
 	font-size: 50px;
 	color: white;
 	text-align: center;
 }
-.texteopti{
+p.texteopti{
 	font-size: 20px;
     text-align: left;
     color: white;
-    line-height: 30px;
+    line-height: 23px;
+}
+p.opti{
+	font-size: 20px;
+    text-align: left;
+    color: white;
+    line-height: 21px;
 }
 p.texteopti a{
 	color: gold;
 }
+/*page dressage*/
 
+p.paragraphe1{
+	color: white;
+	font-size: 18px;
+	line-height: 20px;
+}
+p.dressage{
+	color: white;
+	margin: auto; 
+	padding: auto;
+	position: relative;
+	top: -250px; 
+	font-size: 170px; 
+	text-align: center; 
+	z-index: -1;
+	text-shadow: 1px 1px 2px #222222, 0 0 1em #222222, 0 0 0.2em #222222;
+}
+.imgdressage{
+	position: relative;
+    color: white;
+    z-index: -2; 
+    padding: auto;
+}
+/*page des liens utiles*/
+
+p.liens{
+	font-size: 20px;
+	line-height: 23px;
+	color: white;
+}
+/*page informations*/
+
+p.titrepage{
+	font-size: 35px;
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+}
+
+p.titreonglets{
+	font-size: 25px;
+	color: white;
+	line-height: 15px;
+	text-align: center;
+	margin: -10px;
+	text-decoration: underline;
+}
+
+p.onglets{
+	font-size: 20px;
+	color: white;
+	line-height: 15px;
+	text-align: center;
+	margin: auto;
+	text-decoration: underline;
+}
+.listeonglets{
+	font-size: 17px;
+	color: white;
+	line-height: 19px;
+	text-align: center;
+}
