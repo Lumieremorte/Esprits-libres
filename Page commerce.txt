@@ -2,7 +2,7 @@
 Le système est le suivant : \\
 Il vous faut faire des caisses le plus loin possible de la destination finale, **Valencia**, (ex: **Grana**) pour ensuite les revendre au pnj commerçant de Valencia en passant prendre le **buff du désert** (explication plus loin).
 
-===== Préparé sa route =====
+===== Préparer sa route =====
 Il y a divers possibilités sachant que plus la route est longue plus le rapport est important.\\
 Trois solutions terrestres :
   * Calpheon > Valencia (44 point de contributions).
