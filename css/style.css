@@ -328,3 +328,26 @@ p.onglets{
 	line-height: 19px;
 	text-align: center;
 }
+/*page troc*/
+p.titretroc{
+	font-size: 35px;
+	color: white;
+	line-height: 12px;
+	text-align: center;
+	padding: 10px;
+	text-decoration: underline;
+}
+p.troc{
+	font-size: 19px;
+	color: white;
+	line-height: 23px;
+	text-align: left;
+	margin: auto;
+	padding: auto;
+}
+ul.troc{
+	font-size: 19px;
+	color: white;
+	text-align: left;
+	padding: auto;
+}
